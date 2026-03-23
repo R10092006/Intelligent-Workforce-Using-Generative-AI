@@ -20,10 +20,11 @@ function send() {
             task: document.getElementById("task").value
         })
     })
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => {
         document.getElementById("output").innerText = data.result;
-    });
+    })
+    .catch(error => console.log(error));
 }
 </script>
 
