@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>AI Workforce</h2>
+
+<input id="task" placeholder="Enter task">
+<button onclick="send()">Analyze</button>
+
+<p id="output"></p>
+
+<script>
+function send() {
+    fetch("http://127.0.0.1:5000/analyze", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({task: document.getElementById("task").value})
+    })
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("output").innerText = data.result;
+    });
+}
+</script>
+
+</body>
+</html>
