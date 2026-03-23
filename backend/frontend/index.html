@@ -11,10 +11,14 @@
 
 <script>
 function send() {
-    fetch("http://127.0.0.1:5000/analyze") {
+    fetch("http://127.0.0.1:5000/analyze", {
         method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({task: document.getElementById("task").value})
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            task: document.getElementById("task").value
+        })
     })
     .then(res => res.json())
     .then(data => {
