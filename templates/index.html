@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workforce AI</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f6f8;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input {
+            padding: 12px;
+            width: 300px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .high { color: red; }
+        .meeting { color: orange; }
+        .risk { color: purple; }
+        .normal { color: green; }
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Intelligent Workforce Management System</h2>
+
+<input type="text" id="task" placeholder="Enter your task here">
+<button onclick="analyzeTask()">Analyze</button>
+
+<p id="output"></p>
+
+<h3>Task History</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody id="history"></tbody>
+</table>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
