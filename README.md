@@ -20,8 +20,8 @@ This system uses AI-based logic to analyze tasks and categorize them into:
 
 ## 📸 Screenshots
 
-(screenshot1.png)
-(screenshot2.png)
+(Screenshot 1.png)
+(Screenshot 2.png)
 
 
 ## 🛠 Tech Stack
