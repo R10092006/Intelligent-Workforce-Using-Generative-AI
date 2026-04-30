@@ -21,7 +21,7 @@ This system uses AI-based logic to analyze tasks and categorize them into:
 ## 📸 Screenshots
 
 ![Screenshot](https://github.com/R10092006/Intelligent-Workforce-Using-Generative-AI/blob/main/Screenshot%202.png?raw=true)
-![Screenshot]
+![Screenshot](https://github.com/R10092006/Intelligent-Workforce-Using-Generative-AI/blob/main/Screenshot%201.png?raw=true)
 
 
 ## 🛠 Tech Stack
