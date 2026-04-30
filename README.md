@@ -18,6 +18,12 @@ This system uses AI-based logic to analyze tasks and categorize them into:
 - Database storage using SQLite
 - Clean and interactive UI
 
+## 📸 Screenshots
+
+(screenshot1.png)
+(screenshot2.png)
+
+
 ## 🛠 Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Backend: Flask (Python)
